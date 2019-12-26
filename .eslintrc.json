@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["btn"] }],
+        "prefer-const": "warn",
+        "no-plusplus": "off",
+        "prefer-destructuring": "warn",
+        "consistent-return": "off"
+    }
+}
